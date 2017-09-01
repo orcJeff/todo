@@ -4,7 +4,7 @@
   "description": "To Do Web Part",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "webpack": "^3.5.5"
   }
 }
